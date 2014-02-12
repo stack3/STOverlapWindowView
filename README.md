@@ -1,7 +1,7 @@
 STOverlapWindowView
 ===================
 
-The view overlaps window. You can use the view for modal window like UIAlertView.
+The view overlaps window. You can use the view for modal like UIAlertView.
 
 Usage
 ---
@@ -11,17 +11,17 @@ STOverlapWindowView *overlapView = [[STOverlapWindowView alloc] init];
 // Show
 [overlapView showWithAnimated:YES];
 // Dismiss
-[overlapView hideWithAnimated:NO];
+[overlapView dismissWithAnimated:NO];
 ```
 
 Mostly you will add subviews on STOverlapWindowView. And you want to layout on Interface Builder.  
 This is one of the several ways.
 
-- Create a subclass of STOverlapWindowView.
-- Create a xib file with the same name of subclass.
-- Set the xib's File's Owner to the subclass.
-- Connect IBOutlet subviews on the subclass to the xib.
-- The Subclass loads View from xib and add it as subview.
+- Create a subclass view of STOverlapWindowView.
+- Create a xib file with the same name of subclass view.
+- Set the File's Owner of xib to the subclass view.
+- Connect IBOutlet subviews on the subclass view to the xib.
+- The subclass view loads view from xib and add it as subview.
 
 ```objectivec
 - (id)initWithCoder:(NSCoder *)aDecoder
@@ -44,9 +44,11 @@ This is one of the several ways.
 
 - (void)setup
 {
+    // Load view from xib.
     UINib *nib = [UINib nibWithNibName:NSStringFromClass(self.class) bundle:nil];
     NSArray *objects = [nib instantiateWithOwner:self options:nil];
     UIView *view = objects.firstObject;
+	// Loaded view fills self.  Self view also fills window.
     view.translatesAutoresizingMaskIntoConstraints = YES;
     view.autoresizesSubviews = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
     [self addSubview:view];
