@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7CAF2E218AB202E0007C178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CAF2E118AB202E0007C178 /* Foundation.framework */; };
+		B7CAF2E418AB202E0007C178 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CAF2E318AB202E0007C178 /* CoreGraphics.framework */; };
+		B7CAF2E618AB202E0007C178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CAF2E518AB202E0007C178 /* UIKit.framework */; };
+		B7CAF2EC18AB202E0007C178 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CAF2EA18AB202E0007C178 /* InfoPlist.strings */; };
+		B7CAF2EE18AB202E0007C178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF2ED18AB202E0007C178 /* main.m */; };
+		B7CAF2F218AB202E0007C178 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF2F118AB202E0007C178 /* STAppDelegate.m */; };
+		B7CAF2F518AB202E0007C178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CAF2F318AB202E0007C178 /* Main.storyboard */; };
+		B7CAF2F818AB202E0007C178 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF2F718AB202E0007C178 /* STViewController.m */; };
+		B7CAF2FA18AB202E0007C178 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CAF2F918AB202E0007C178 /* Images.xcassets */; };
+		B7CAF30118AB202E0007C178 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CAF30018AB202E0007C178 /* XCTest.framework */; };
+		B7CAF30218AB202E0007C178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CAF2E118AB202E0007C178 /* Foundation.framework */; };
+		B7CAF30318AB202E0007C178 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CAF2E518AB202E0007C178 /* UIKit.framework */; };
+		B7CAF30B18AB202E0007C178 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CAF30918AB202E0007C178 /* InfoPlist.strings */; };
+		B7CAF30D18AB202E0007C178 /* STOverlapWindowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF30C18AB202E0007C178 /* STOverlapWindowViewTests.m */; };
+		B7CAF31818AB20460007C178 /* STOverlapWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF31718AB20460007C178 /* STOverlapWindowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7CAF30418AB202E0007C178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CAF2D618AB202E0007C178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7CAF2DD18AB202E0007C178;
+			remoteInfo = STOverlapWindowView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7CAF2DE18AB202E0007C178 /* STOverlapWindowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STOverlapWindowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CAF2E118AB202E0007C178 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7CAF2E318AB202E0007C178 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7CAF2E518AB202E0007C178 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7CAF2E918AB202E0007C178 /* STOverlapWindowView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STOverlapWindowView-Info.plist"; sourceTree = "<group>"; };
+		B7CAF2EB18AB202E0007C178 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7CAF2ED18AB202E0007C178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7CAF2EF18AB202E0007C178 /* STOverlapWindowView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STOverlapWindowView-Prefix.pch"; sourceTree = "<group>"; };
+		B7CAF2F018AB202E0007C178 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		B7CAF2F118AB202E0007C178 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		B7CAF2F418AB202E0007C178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7CAF2F618AB202E0007C178 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		B7CAF2F718AB202E0007C178 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		B7CAF2F918AB202E0007C178 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7CAF2FF18AB202E0007C178 /* STOverlapWindowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STOverlapWindowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CAF30018AB202E0007C178 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B7CAF30818AB202E0007C178 /* STOverlapWindowViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STOverlapWindowViewTests-Info.plist"; sourceTree = "<group>"; };
+		B7CAF30A18AB202E0007C178 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7CAF30C18AB202E0007C178 /* STOverlapWindowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STOverlapWindowViewTests.m; sourceTree = "<group>"; };
+		B7CAF31618AB20460007C178 /* STOverlapWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlapWindowView.h; sourceTree = "<group>"; };
+		B7CAF31718AB20460007C178 /* STOverlapWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlapWindowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CAF2DB18AB202E0007C178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAF2E418AB202E0007C178 /* CoreGraphics.framework in Frameworks */,
+				B7CAF2E618AB202E0007C178 /* UIKit.framework in Frameworks */,
+				B7CAF2E218AB202E0007C178 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CAF2FC18AB202E0007C178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAF30118AB202E0007C178 /* XCTest.framework in Frameworks */,
+				B7CAF30318AB202E0007C178 /* UIKit.framework in Frameworks */,
+				B7CAF30218AB202E0007C178 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7CAF2D518AB202E0007C178 = {
+			isa = PBXGroup;
+			children = (
+				B7CAF2E718AB202E0007C178 /* STOverlapWindowView */,
+				B7CAF30618AB202E0007C178 /* STOverlapWindowViewTests */,
+				B7CAF2E018AB202E0007C178 /* Frameworks */,
+				B7CAF2DF18AB202E0007C178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7CAF2DF18AB202E0007C178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF2DE18AB202E0007C178 /* STOverlapWindowView.app */,
+				B7CAF2FF18AB202E0007C178 /* STOverlapWindowViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CAF2E018AB202E0007C178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF2E118AB202E0007C178 /* Foundation.framework */,
+				B7CAF2E318AB202E0007C178 /* CoreGraphics.framework */,
+				B7CAF2E518AB202E0007C178 /* UIKit.framework */,
+				B7CAF30018AB202E0007C178 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7CAF2E718AB202E0007C178 /* STOverlapWindowView */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF31618AB20460007C178 /* STOverlapWindowView.h */,
+				B7CAF31718AB20460007C178 /* STOverlapWindowView.m */,
+				B7CAF31A18AB21890007C178 /* Application */,
+				B7CAF2E818AB202E0007C178 /* Supporting Files */,
+			);
+			path = STOverlapWindowView;
+			sourceTree = "<group>";
+		};
+		B7CAF2E818AB202E0007C178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF2E918AB202E0007C178 /* STOverlapWindowView-Info.plist */,
+				B7CAF2EA18AB202E0007C178 /* InfoPlist.strings */,
+				B7CAF2ED18AB202E0007C178 /* main.m */,
+				B7CAF2EF18AB202E0007C178 /* STOverlapWindowView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CAF30618AB202E0007C178 /* STOverlapWindowViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF30C18AB202E0007C178 /* STOverlapWindowViewTests.m */,
+				B7CAF30718AB202E0007C178 /* Supporting Files */,
+			);
+			path = STOverlapWindowViewTests;
+			sourceTree = "<group>";
+		};
+		B7CAF30718AB202E0007C178 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF30818AB202E0007C178 /* STOverlapWindowViewTests-Info.plist */,
+				B7CAF30918AB202E0007C178 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CAF31A18AB21890007C178 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAF2F618AB202E0007C178 /* STViewController.h */,
+				B7CAF2F718AB202E0007C178 /* STViewController.m */,
+				B7CAF2F918AB202E0007C178 /* Images.xcassets */,
+				B7CAF2F018AB202E0007C178 /* STAppDelegate.h */,
+				B7CAF2F118AB202E0007C178 /* STAppDelegate.m */,
+				B7CAF2F318AB202E0007C178 /* Main.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7CAF2DD18AB202E0007C178 /* STOverlapWindowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CAF31018AB202E0007C178 /* Build configuration list for PBXNativeTarget "STOverlapWindowView" */;
+			buildPhases = (
+				B7CAF2DA18AB202E0007C178 /* Sources */,
+				B7CAF2DB18AB202E0007C178 /* Frameworks */,
+				B7CAF2DC18AB202E0007C178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STOverlapWindowView;
+			productName = STOverlapWindowView;
+			productReference = B7CAF2DE18AB202E0007C178 /* STOverlapWindowView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7CAF2FE18AB202E0007C178 /* STOverlapWindowViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CAF31318AB202E0007C178 /* Build configuration list for PBXNativeTarget "STOverlapWindowViewTests" */;
+			buildPhases = (
+				B7CAF2FB18AB202E0007C178 /* Sources */,
+				B7CAF2FC18AB202E0007C178 /* Frameworks */,
+				B7CAF2FD18AB202E0007C178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7CAF30518AB202E0007C178 /* PBXTargetDependency */,
+			);
+			name = STOverlapWindowViewTests;
+			productName = STOverlapWindowViewTests;
+			productReference = B7CAF2FF18AB202E0007C178 /* STOverlapWindowViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7CAF2D618AB202E0007C178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = stack3;
+				TargetAttributes = {
+					B7CAF2FE18AB202E0007C178 = {
+						TestTargetID = B7CAF2DD18AB202E0007C178;
+					};
+				};
+			};
+			buildConfigurationList = B7CAF2D918AB202E0007C178 /* Build configuration list for PBXProject "STOverlapWindowView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7CAF2D518AB202E0007C178;
+			productRefGroup = B7CAF2DF18AB202E0007C178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7CAF2DD18AB202E0007C178 /* STOverlapWindowView */,
+				B7CAF2FE18AB202E0007C178 /* STOverlapWindowViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CAF2DC18AB202E0007C178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAF2FA18AB202E0007C178 /* Images.xcassets in Resources */,
+				B7CAF2EC18AB202E0007C178 /* InfoPlist.strings in Resources */,
+				B7CAF2F518AB202E0007C178 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CAF2FD18AB202E0007C178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAF30B18AB202E0007C178 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7CAF2DA18AB202E0007C178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAF2F818AB202E0007C178 /* STViewController.m in Sources */,
+				B7CAF2EE18AB202E0007C178 /* main.m in Sources */,
+				B7CAF2F218AB202E0007C178 /* STAppDelegate.m in Sources */,
+				B7CAF31818AB20460007C178 /* STOverlapWindowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CAF2FB18AB202E0007C178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CAF30D18AB202E0007C178 /* STOverlapWindowViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7CAF30518AB202E0007C178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7CAF2DD18AB202E0007C178 /* STOverlapWindowView */;
+			targetProxy = B7CAF30418AB202E0007C178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7CAF2EA18AB202E0007C178 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CAF2EB18AB202E0007C178 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7CAF2F318AB202E0007C178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CAF2F418AB202E0007C178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7CAF30918AB202E0007C178 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CAF30A18AB202E0007C178 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7CAF30E18AB202E0007C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7CAF30F18AB202E0007C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7CAF31118AB202E0007C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STOverlapWindowView/STOverlapWindowView-Prefix.pch";
+				INFOPLIST_FILE = "STOverlapWindowView/STOverlapWindowView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7CAF31218AB202E0007C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STOverlapWindowView/STOverlapWindowView-Prefix.pch";
+				INFOPLIST_FILE = "STOverlapWindowView/STOverlapWindowView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7CAF31418AB202E0007C178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STOverlapWindowView.app/STOverlapWindowView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STOverlapWindowView/STOverlapWindowView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "STOverlapWindowViewTests/STOverlapWindowViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B7CAF31518AB202E0007C178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/STOverlapWindowView.app/STOverlapWindowView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STOverlapWindowView/STOverlapWindowView-Prefix.pch";
+				INFOPLIST_FILE = "STOverlapWindowViewTests/STOverlapWindowViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7CAF2D918AB202E0007C178 /* Build configuration list for PBXProject "STOverlapWindowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CAF30E18AB202E0007C178 /* Debug */,
+				B7CAF30F18AB202E0007C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CAF31018AB202E0007C178 /* Build configuration list for PBXNativeTarget "STOverlapWindowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CAF31118AB202E0007C178 /* Debug */,
+				B7CAF31218AB202E0007C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7CAF31318AB202E0007C178 /* Build configuration list for PBXNativeTarget "STOverlapWindowViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CAF31418AB202E0007C178 /* Debug */,
+				B7CAF31518AB202E0007C178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7CAF2D618AB202E0007C178 /* Project object */;
+}
