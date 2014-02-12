@@ -95,11 +95,12 @@ static const NSTimeInterval _STAnimationDuration = 0.3f;
 
 - (CGFloat)currentStatusBarHeight
 {
+    UIApplication *app = [UIApplication sharedApplication];
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
     if (UIInterfaceOrientationIsLandscape(orientation)) {
-        return [UIApplication sharedApplication].statusBarFrame.size.width;
+        return app.statusBarFrame.size.width;
     } else {
-        return [UIApplication sharedApplication].statusBarFrame.size.height;
+        return app.statusBarFrame.size.height;
     }
 }
 
@@ -125,9 +126,9 @@ static const NSTimeInterval _STAnimationDuration = 0.3f;
     return angle;
 }
 
-- (void)showAnimated:(BOOL)animated
+- (void)showWithAnimated:(BOOL)animated
 {
-    _parentWindow = [[[UIApplication sharedApplication] delegate] window];
+    _parentWindow = [[UIApplication sharedApplication] keyWindow];
     self.translatesAutoresizingMaskIntoConstraints = NO;
     self.frame = _parentWindow.bounds;
     [_parentWindow addSubview:self];
@@ -140,7 +141,7 @@ static const NSTimeInterval _STAnimationDuration = 0.3f;
     }
 }
 
-- (void)dismissAnimated:(BOOL)animated
+- (void)dismissWithAnimated:(BOOL)animated
 {
     if (animated) {
         self.alpha = 1.0;

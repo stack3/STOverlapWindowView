@@ -25,8 +25,11 @@
 //
 
 #import "STViewController.h"
+#import "STCustomOverlapWindowView.h"
 
 @interface STViewController ()
+
+@property (weak, nonatomic) IBOutlet UIButton *showButton;
 
 @end
 
@@ -35,13 +38,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [_showButton addTarget:self action:@selector(didTapShowButton) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)didTapShowButton
+{
+    STCustomOverlapWindowView *overlapView = [[STCustomOverlapWindowView alloc] init];
+    [overlapView showWithAnimated:YES];
 }
 
 @end

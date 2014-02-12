@@ -37,10 +37,10 @@
  * Show the view.
  * The view will be added on window.
  */
-- (void)showAnimated:(BOOL)animated;
+- (void)showWithAnimated:(BOOL)animated;
 /**
  * Dismiss the view.
  */
-- (void)dismissAnimated:(BOOL)animated;
+- (void)dismissWithAnimated:(BOOL)animated;
 
 @end
