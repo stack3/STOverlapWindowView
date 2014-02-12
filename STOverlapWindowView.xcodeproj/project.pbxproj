@@ -22,6 +22,8 @@
 		B7CAF30B18AB202E0007C178 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CAF30918AB202E0007C178 /* InfoPlist.strings */; };
 		B7CAF30D18AB202E0007C178 /* STOverlapWindowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF30C18AB202E0007C178 /* STOverlapWindowViewTests.m */; };
 		B7CAF31818AB20460007C178 /* STOverlapWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF31718AB20460007C178 /* STOverlapWindowView.m */; };
+		B7CAF31D18AB290F0007C178 /* STCustomOverlapWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CAF31C18AB290F0007C178 /* STCustomOverlapWindowView.m */; };
+		B7CAF31F18AB29230007C178 /* STCustomOverlapWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7CAF31E18AB29230007C178 /* STCustomOverlapWindowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		B7CAF30C18AB202E0007C178 /* STOverlapWindowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STOverlapWindowViewTests.m; sourceTree = "<group>"; };
 		B7CAF31618AB20460007C178 /* STOverlapWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlapWindowView.h; sourceTree = "<group>"; };
 		B7CAF31718AB20460007C178 /* STOverlapWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlapWindowView.m; sourceTree = "<group>"; };
+		B7CAF31B18AB290F0007C178 /* STCustomOverlapWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCustomOverlapWindowView.h; sourceTree = "<group>"; };
+		B7CAF31C18AB290F0007C178 /* STCustomOverlapWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCustomOverlapWindowView.m; sourceTree = "<group>"; };
+		B7CAF31E18AB29230007C178 /* STCustomOverlapWindowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCustomOverlapWindowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +122,7 @@
 			children = (
 				B7CAF31618AB20460007C178 /* STOverlapWindowView.h */,
 				B7CAF31718AB20460007C178 /* STOverlapWindowView.m */,
-				B7CAF31A18AB21890007C178 /* Application */,
-				B7CAF2E818AB202E0007C178 /* Supporting Files */,
+				B7CAF31A18AB21890007C178 /* Sample Application */,
 			);
 			path = STOverlapWindowView;
 			sourceTree = "<group>";
@@ -152,17 +156,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B7CAF31A18AB21890007C178 /* Application */ = {
+		B7CAF31A18AB21890007C178 /* Sample Application */ = {
 			isa = PBXGroup;
 			children = (
+				B7CAF31B18AB290F0007C178 /* STCustomOverlapWindowView.h */,
+				B7CAF31C18AB290F0007C178 /* STCustomOverlapWindowView.m */,
+				B7CAF31E18AB29230007C178 /* STCustomOverlapWindowView.xib */,
 				B7CAF2F618AB202E0007C178 /* STViewController.h */,
 				B7CAF2F718AB202E0007C178 /* STViewController.m */,
 				B7CAF2F918AB202E0007C178 /* Images.xcassets */,
 				B7CAF2F018AB202E0007C178 /* STAppDelegate.h */,
 				B7CAF2F118AB202E0007C178 /* STAppDelegate.m */,
 				B7CAF2F318AB202E0007C178 /* Main.storyboard */,
+				B7CAF2E818AB202E0007C178 /* Supporting Files */,
 			);
-			name = Application;
+			name = "Sample Application";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7CAF31F18AB29230007C178 /* STCustomOverlapWindowView.xib in Resources */,
 				B7CAF2FA18AB202E0007C178 /* Images.xcassets in Resources */,
 				B7CAF2EC18AB202E0007C178 /* InfoPlist.strings in Resources */,
 				B7CAF2F518AB202E0007C178 /* Main.storyboard in Resources */,
@@ -264,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7CAF2F818AB202E0007C178 /* STViewController.m in Sources */,
+				B7CAF31D18AB290F0007C178 /* STCustomOverlapWindowView.m in Sources */,
 				B7CAF2EE18AB202E0007C178 /* main.m in Sources */,
 				B7CAF2F218AB202E0007C178 /* STAppDelegate.m in Sources */,
 				B7CAF31818AB20460007C178 /* STOverlapWindowView.m in Sources */,

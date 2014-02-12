@@ -129,7 +129,8 @@ static const NSTimeInterval _STAnimationDuration = 0.3f;
 - (void)showWithAnimated:(BOOL)animated
 {
     _parentWindow = [[UIApplication sharedApplication] keyWindow];
-    self.translatesAutoresizingMaskIntoConstraints = NO;
+    // DO NOT set NO. Because it will corrupt layout.
+    // self.translatesAutoresizingMaskIntoConstraints = NO;
     self.frame = _parentWindow.bounds;
     [_parentWindow addSubview:self];
     
