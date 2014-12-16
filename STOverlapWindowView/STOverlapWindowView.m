@@ -139,6 +139,8 @@ static const NSTimeInterval _STAnimationDuration = 0.3f;
         [UIView animateWithDuration:_STAnimationDuration animations:^{
             self.alpha = 1.0;
         }];
+    } else {
+        self.alpha = 1.0;
     }
 }
 
@@ -152,6 +154,7 @@ static const NSTimeInterval _STAnimationDuration = 0.3f;
             [self removeFromSuperview];
         }];
     } else {
+        self.alpha = 0;
         [self removeFromSuperview];
     }
 }
