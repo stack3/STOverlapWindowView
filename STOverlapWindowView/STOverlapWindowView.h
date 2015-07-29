@@ -33,6 +33,7 @@
  */
 @interface STOverlapWindowView : UIView
 
+- (id)init;
 /**
  * Show the view.
  * The view will be added on window.
